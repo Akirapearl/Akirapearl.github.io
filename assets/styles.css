@@ -67,7 +67,7 @@ a{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 30px;
-    padding: 5%;
+    padding: 11%;
     justify-content: center;
     font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
 }
@@ -98,11 +98,15 @@ a{
 #bottom{
     background-color:black; 
     font-size: 20px;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 13%;
+    padding-bottom: 12%;
+    font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
+    text-align: center;
+}
+#bottom h1{
+    color: white;
     font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
 }
-
 hr{
     border: 5px solid #662D8C;
 }
