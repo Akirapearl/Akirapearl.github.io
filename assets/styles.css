@@ -35,9 +35,11 @@ a{
     text-decoration: none;
     color: white;
 }
+/*To - do*/
+/*Make navbar responsive - center on screen*/
 /*end header*/
 
-/*first section*/
+/*first section - welcome*/
 #welcome-section{
     height: 100vh;
     background: linear-gradient(35deg,#662D8C,#fa92bf);
@@ -55,9 +57,8 @@ a{
     font-style: oblique;
     font-weight: lighter;
 }
-/*END section*/
 
-/*project/second section*/
+/*Second section - projects/portfolio */
 #projects{
    /*background-color: black;*/
     background-image: url("https://papers.co/wallpaper/papers.co-ax42-coding-dark-computer-bokeh-illustration-art-black-36-3840x2400-4k-wallpaper.jpg");
@@ -67,7 +68,7 @@ a{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 30px;
-    padding: 11%;
+    padding: 14%;
     justify-content: center;
     font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
 }
@@ -90,11 +91,23 @@ a{
     padding-bottom: 0.7rem;
     
 }
-/*Hover with animated "< />" symbols */
-/*stack the grid if small screen*/
-/*END section*/
+/*To - do*/
+/*Hover to show "< />" symbols and bigger text*/
+/*stack the grid if small screen - responsive*/
 
-/*Third section - links*/
+
+/*Third section - about me*/
+#about{
+    background-image: url("/dev/akirapearl/assets/images/tokyoblur.png");
+    font-size: 20px;
+    padding-top: 13%;
+    padding-bottom: 12%;
+    font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
+    text-align: center;
+    color:white;
+}
+
+/*Fourth section - links*/
 #bottom{
     background-color:black; 
     font-size: 20px;
@@ -103,14 +116,22 @@ a{
     font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
     text-align: center;
 }
+#bottom span{
+    padding-right: 5px;
+}
+#linkedin{
+    margin-right: 5px;
+}
 #bottom h1{
     color: white;
     font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
 }
+.logos{
+    width: 30px;
+}
 hr{
     border: 5px solid #662D8C;
 }
-/*END Third section*/
 
 footer{
         background-color:black; 
