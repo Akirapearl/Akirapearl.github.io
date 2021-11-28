@@ -60,7 +60,6 @@ a{
 
 /*Second section - projects/portfolio */
 #projects{
-   /*background-color: black;*/
     background-image: url("https://papers.co/wallpaper/papers.co-ax42-coding-dark-computer-bokeh-illustration-art-black-36-3840x2400-4k-wallpaper.jpg");
     background-position:center;
     background-repeat: no-repeat;
@@ -98,7 +97,8 @@ a{
 
 /*Third section - about me*/
 #about{
-    background-image: url("https://i.imgur.com/7cJxNkq.png");
+    background-image: url("https://i.imgur.com/bT1Rxsh.png");
+    /*background-image: url("/dev/akirapearl/assets/images/tokyoblur.png");*/
     font-size: 20px;
     padding-top: 13%;
     padding-bottom: 12%;
@@ -126,11 +126,9 @@ a{
     color: white;
     font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
 }
-.logos{
-    width: 30px;
-}
 hr{
     border: 5px solid #662D8C;
+    background-color: #662D8C;
 }
 
 footer{
