@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    width: 100%;
 }
 
 /*header*/
@@ -21,8 +22,14 @@ body{
     
 }
 /*center the text if small screen*/
-@media (min-width:400px) and (max-width: 700px) {
+@media (max-width: 800px) {
 #navbar ul{
+    justify-content: center;
+}
+#projects{
+    background-size:cover;
+    display: grid;
+    grid-template-columns: auto;
     justify-content: center;
 }
 }
