@@ -30,7 +30,9 @@ body{
     background-size:cover;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50px,1fr));
-    /*comentario para que git me deje subir el fichero*/
+}
+.project-tile{
+    margin-top: 1rem;
 }
 }
 
@@ -71,22 +73,23 @@ a{
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
+    /*--------------------*/
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 2rem;
+    justify-content: space-evenly;
+    /*Credits to https://github.com/Javiertis for helping me with the grid responsiveness*/
+    /*--------------------*/
     padding: 14%;
-    justify-content: center;
     font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
 }
 .project-tile{
     background-color: lightblue;
     display: block;
     height: 300px;
+    width: 340px;
     object-fit: cover;
     border: 2px  solid pink;
-}
-.small-tile{
-    width: 300px ;
 }
 .ptitle{
     display: flex; 
@@ -94,12 +97,13 @@ a{
     font-size: 20px;
     background-color: #fa92bf;
     padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-    
+    padding-bottom: 0.7rem; 
+    width: 100%;  
 }
 /*To - do*/
 /*Hover to show "< />" symbols and bigger text*/
-/*stack the grid if small screen - responsive*/
+/*Improve responsive design, grid with descriptive titles
+covering the entire width of the image*/
 
 
 /*Third section - about me*/
