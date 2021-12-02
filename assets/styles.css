@@ -29,8 +29,7 @@ body{
 #projects{
     background-size:cover;
     display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(50px,1fr));
 }
 }
 
