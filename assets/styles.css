@@ -30,6 +30,7 @@ body{
     background-size:cover;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50px,1fr));
+    /*comentario para que git me deje subir el fichero*/
 }
 }
 
