@@ -22,7 +22,7 @@ body{
     
 }
 /*media querie - responsive 1*/
-@media (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 800px) {
 #navbar ul{
     justify-content: center;
 }
@@ -34,10 +34,10 @@ body{
 .project-tile{
     margin-top: 1rem;
 }
-
 #welcome-section h1,#welcome-section h2{
     font-size: 150%;
 }
+
 }
 
 #navbar li {
@@ -49,7 +49,6 @@ a{
     color: white;
 }
 /*To - do*/
-/*Make navbar responsive - center on screen*/
 /*end header*/
 
 /*first section - welcome*/
