@@ -1,3 +1,26 @@
+/*media queries - responsive design*/
+@media (min-width: 300px) and (max-width: 800px) {
+    #navbar ul{
+        justify-content: center;
+    }
+    #projects{
+        background-size:cover;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50px,1fr));
+    }
+    .project-tile{
+        margin-top: 1rem;
+    }
+    #welcome-section h1,#welcome-section h2{
+        font-size: 150%;
+    }
+    }
+    
+@media (min-width: 800px){
+    .project-tile{
+        margin-top: 1rem;
+        }
+    }
 body{
     margin: 0;
     width: 100%;
@@ -21,25 +44,6 @@ body{
     font-size: 20px;
     
 }
-/*media querie - responsive 1*/
-@media (min-width: 300px) and (max-width: 800px) {
-#navbar ul{
-    justify-content: center;
-}
-#projects{
-    background-size:cover;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px,1fr));
-}
-.project-tile{
-    margin-top: 1rem;
-}
-#welcome-section h1,#welcome-section h2{
-    font-size: 150%;
-}
-
-}
-
 #navbar li {
     list-style: none;
     padding: 25px;
@@ -48,10 +52,9 @@ a{
     text-decoration: none;
     color: white;
 }
-/*To - do*/
 /*end header*/
 
-/*first section - welcome*/
+/*First section - welcome*/
 #welcome-section{
     height: 100vh;
     background: linear-gradient(35deg,#662D8C,#fa92bf);
@@ -101,12 +104,11 @@ a{
     background-color: #fa92bf;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem; 
-    width: 100%;  
+    width: 50%;  
 }
 /*To - do*/
 /*Hover to show "< />" symbols and bigger text*/
-/*Improve responsive design, grid with descriptive titles
-covering the entire width of the image*/
+
 
 
 /*Third section - about me*/
@@ -140,6 +142,7 @@ covering the entire width of the image*/
     color: white;
     font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
 }
+/* Footer and horizontal bar/separator */
 hr{
     border: 5px solid #662D8C;
     background-color: #662D8C;
@@ -152,3 +155,4 @@ footer{
         font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
         color: white;
 }
+
