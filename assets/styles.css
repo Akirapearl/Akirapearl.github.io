@@ -113,6 +113,7 @@ a{
 #about{
     background-image: url("https://i.imgur.com/g8Ryga3.png");
     background-size: cover;
+    background-position:center;
     font-size: 24px;
     padding-top: 13%;
     padding-bottom: 12%;
@@ -147,6 +148,7 @@ hr{
 }
 
 footer{
+        height: 18vh;
         background-color:black; 
         font-size: 15px;
         padding: 2%;
