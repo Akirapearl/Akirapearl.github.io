@@ -109,13 +109,11 @@ a{
 /*To - do*/
 /*Hover to show "< />" symbols and bigger text*/
 
-
-
 /*Third section - about me*/
 #about{
-    background-image: url("https://i.imgur.com/bT1Rxsh.png");
-    /*background-image: url("/dev/akirapearl/assets/images/tokyoblur.png");*/
-    font-size: 20px;
+    background-image: url("https://i.imgur.com/g8Ryga3.png");
+    background-size: cover;
+    font-size: 24px;
     padding-top: 13%;
     padding-bottom: 12%;
     font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
