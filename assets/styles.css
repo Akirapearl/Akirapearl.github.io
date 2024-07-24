@@ -141,6 +141,24 @@ a{
     color: white;
     font-family: 'JetBrains Mono', 'Lucida Sans Unicode';
 }
+#skillset{
+  
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+th {
+    background-color: rgba(119, 118, 119, 0.644);
+    padding: 10 10 10 10;
+    margin: 10 10 10 10;
+}
+
+td {
+    text-align: left;
+    background-color: rgba(194, 194, 194, 0.822);
+    padding: 10px 10px 10px 10px;
+    
+}
 /* Footer and horizontal bar/separator */
 hr{
     border: 5px solid #662D8C;
