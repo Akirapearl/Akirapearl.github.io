@@ -1,0 +1,32 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1654198340681-a2e0fc449f1b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#descrip, #descr-role, #descr-role2, #descr-company,ul, header{
+    color: gainsboro;
+    font-weight: bold;
+}
+
+#descrip {
+    font-style: italic;
+}
+#descr-role {
+    font-size: 2em;
+}
+#descr-role2 {
+    font-size: 1.5em;
+}
+#descr-company {
+    font-size: 1em;
+}
+
+footer {
+    background-color: black;
+}
+footer a {
+    color: salmon;
+    font-weight: bold;
+}
